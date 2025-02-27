@@ -22,6 +22,7 @@ TARGET_SCREEN_DENSITY := 320
 TARGET_KERNEL_CONFIG += vendor/samsung/gts7xl.config
 
 # Properties
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery
