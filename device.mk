@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1752
 TARGET_SCREEN_WIDTH := 2800
 
+# Display
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.primary_display_orientation=ORIENTATION_270
+
 # Init files
 PRODUCT_PACKAGES += \
     init.gts7xl.rc
