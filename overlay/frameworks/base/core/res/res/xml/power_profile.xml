@@ -155,8 +155,8 @@
     </array>
     <item name="cpu.suspend">7.5</item>
     <item name="cpu.idle">14.7</item>
-    <item name="battery.capacity">7760</item>
-    <item name="battery.typical.capacity">8000</item>
+    <item name="battery.capacity">9800</item>
+    <item name="battery.typical.capacity">10090</item>
     <item name="bluetooth.controller.idle">0</item>
     <item name="bluetooth.controller.rx">10</item>
     <item name="bluetooth.controller.tx">10</item>
