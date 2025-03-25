@@ -48,5 +48,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# UDFPS
+$(call soong_config_set,samsung_udfps,udfps_zorder,0x20000000u)
+
 # Inherit from vendor blobs
 $(call inherit-product-if-exists, vendor/samsung/gts7xl/gts7xl-vendor.mk)
