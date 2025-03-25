@@ -5,3 +5,8 @@ ro.audio.monitorRotation=true
 
 # Bluetooth
 bluetooth.device.default_name=Galaxy Tab S7+
+
+# Fingerprint
+ro.vendor.fingerprint.type=udfps_optical
+ro.vendor.fingerprint.sensor_location=876|2614|77
+ro.vendor.fingerprint.request_touch_event=true
