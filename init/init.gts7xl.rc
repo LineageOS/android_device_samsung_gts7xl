@@ -26,6 +26,9 @@
 # IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+on early-boot
+    chown system system /sys/class/sec/tsp/scrub_pos
+
 on post-fs
     # Create carrier folder for HiddenMenu
     mkdir /efs/carrier 0755 radio system
